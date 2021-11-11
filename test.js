@@ -1,12 +1,5 @@
-for (i = 0; i < 10; i++) {
-    if ( i === 5 || i ===3){
-        continue;
-    }
+var myPastDate = new Date(1545, 11, 2, 10, 30, 15);
+var myFutureDate = new Date(2515, 0, 21, 10, 30, 15);
 
-    console.log(i); 
-    if (i === 7){
-        break;
-    }
-}
-
-console.log("I have broken out of the loop")
+console.log(myPastDate);
+console.log(myFutureDate);
